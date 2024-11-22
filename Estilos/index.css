@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    margin: 20px, 10px;
+    color: darkmagenta;
+}
+.Texto p{
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    color:darkblue;
+}
+.Texto{
+    width:vw;
+    height: vh;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+.btn1 {
+    width: 70px;
+    height: 50px;
+    background-color: darkturquoise;
+    transition: 500ms;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+.btn1:hover{
+    background-color:crimson;
+    color:aliceblue;
+}
