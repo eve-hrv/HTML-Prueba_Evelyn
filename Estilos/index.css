@@ -3,13 +3,20 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.Principal {
+    margin: 0%;
+    padding: 0%;
+    width: vw;
+    height: vh;
+    background-color: rgb(224, 251, 252);
+}
 h1{
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
     text-align: center;
     margin: 20px, 10px;
-    color: darkmagenta;
+    color:rgb(61, 90, 128);
 }
 .Texto p{
     font-size: 14px;
@@ -23,7 +30,7 @@ h1{
     height: vh;
     margin: 10px;
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(152, 193, 217);
 }
 .btn1 {
     width: 70px;
@@ -33,9 +40,17 @@ h1{
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
-    align-items: center;
+    
 }
 .btn1:hover{
     background-color:crimson;
     color:aliceblue;
+    border-radius: 15px;
+}
+ul {
+    padding: 10px, 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style-position: inside;
 }
